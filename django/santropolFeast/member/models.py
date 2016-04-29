@@ -250,6 +250,6 @@ class Profile(models.Model):
     )
 
     description = models.CharField(
-        max_length=200,
+        max_length=20,
         verbose_name=_('description')
     )
